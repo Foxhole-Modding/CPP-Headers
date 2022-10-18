@@ -1,0 +1,8 @@
+#ifndef UE4SS_SDK_SuperTankWGrenadeLauncherRearGunnerComponent_HPP
+#define UE4SS_SDK_SuperTankWGrenadeLauncherRearGunnerComponent_HPP
+
+class USuperTankWGrenadeLauncherRearGunnerComponent_C : public UGrenadeGunnerMountComponent
+{
+};
+
+#endif

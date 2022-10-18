@@ -1,0 +1,92 @@
+#ifndef UE4SS_SDK_UniqueWWarehouseG4_HPP
+#define UE4SS_SDK_UniqueWWarehouseG4_HPP
+
+class AUniqueWWarehouseG4_C : public AGarrisonHouse
+{
+    class USpotLightComponent* SpotLight1;
+    class UBoxComponent* ShootThroughCollision05;
+    class UBoxComponent* ShootThroughCollision04;
+    class UBoxComponent* ShootThroughCollision03;
+    class UBoxComponent* ShootThroughCollision01;
+    class UBoxComponent* ShootThroughCollision02;
+    class UBoxComponent* Collision03;
+    class UBoxComponent* Collision02;
+    class UStaticMeshComponent* StaticMesh3;
+    class UStaticMeshComponent* StaticMesh15;
+    class UBoxComponent* Collision01;
+    class UStaticMeshComponent* Cardboard12;
+    class USceneComponent* StaticMeshPropCollision;
+    class UStaticMeshComponent* Light;
+    class UDecalComponent* Decal;
+    class UStaticMeshComponent* HangingCloth05;
+    class UStaticMeshComponent* HangingCloth03;
+    class UDecalComponent* Decal18;
+    class UDecalComponent* Decal17;
+    class UDecalComponent* Decal16;
+    class UDecalComponent* Decal15;
+    class UDecalComponent* Decal1;
+    class UDecalComponent* Decal10;
+    class UDecalComponent* Decal9;
+    class UDecalComponent* Decal4;
+    class UDecalComponent* Decal13;
+    class USceneComponent* Decals;
+    class UStaticMeshComponent* StaticMesh13;
+    class UStaticMeshComponent* StaticMesh37;
+    class UStaticMeshComponent* StaticMesh36;
+    class UStaticMeshComponent* StaticMesh35;
+    class UStaticMeshComponent* StaticMesh34;
+    class UStaticMeshComponent* HangingCloth02;
+    class UStaticMeshComponent* StaticMesh;
+    class UStaticMeshComponent* StaticMesh32;
+    class UStaticMeshComponent* CrudeOil;
+    class UStaticMeshComponent* StaticMesh31;
+    class UStaticMeshComponent* StaticMesh17;
+    class UStaticMeshComponent* TrenchWoodPlank2;
+    class UStaticMeshComponent* StaticMesh10;
+    class UStaticMeshComponent* StaticMesh11;
+    class UStaticMeshComponent* StaticMesh7;
+    class UStaticMeshComponent* StaticMesh5;
+    class UStaticMeshComponent* StaticMesh6;
+    class UStaticMeshComponent* StaticMesh9;
+    class UStaticMeshComponent* StaticMesh2;
+    class UStaticMeshComponent* StaticMesh12;
+    class UStaticMeshComponent* StaticMesh27;
+    class UStaticMeshComponent* StaticMesh26;
+    class UStaticMeshComponent* Cardboard03;
+    class UStaticMeshComponent* StaticMesh25;
+    class UStaticMeshComponent* StaticMesh24;
+    class UStaticMeshComponent* StaticMesh19;
+    class UStaticMeshComponent* StaticMesh14;
+    class UStaticMeshComponent* Cardboard01;
+    class USceneComponent* StaticMeshProps;
+    class UDecalComponent* AITurretMarker03;
+    class UDecalComponent* AITurretMarker02;
+    class UStaticMeshComponent* window04;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret3;
+    class UStaticMeshComponent* window03;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret2;
+    class UStaticMeshComponent* HangingCloth06;
+    class UStaticMeshComponent* HangingCloth04;
+    class UDecalComponent* Decal14;
+    class UDecalComponent* Decal12;
+    class UDecalComponent* Decal11;
+    class UDecalComponent* Decal7;
+    class UDecalComponent* Decal6;
+    class UDecalComponent* Decal5;
+    class UDecalComponent* Decal3;
+    class UDecalComponent* Decal8;
+    class UBPStructureInteriorArea_C* BPStructureInteriorArea;
+    class UMultiplexedStaticMeshComponent* MultiplexedRoof;
+    class UStaticMeshComponent* RoofMesh;
+    class UDecalComponent* AITurretMarker01;
+    class UDecalComponent* AITurretMarker00;
+    class UStaticMeshComponent* window02;
+    class UStaticMeshComponent* window01;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret1;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret;
+    class UMultiplexedStaticMeshComponent* MultiplexedHouse;
+    class UStaticMeshComponent* HouseMesh;
+
+};
+
+#endif

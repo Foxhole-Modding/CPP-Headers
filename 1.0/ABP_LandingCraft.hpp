@@ -1,0 +1,21 @@
+#ifndef UE4SS_SDK_ABP_LandingCraft_HPP
+#define UE4SS_SDK_ABP_LandingCraft_HPP
+
+class UABP_LandingCraft_C : public ULandingCraftAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_38E74C3E4A9BC3D4CC4953B3A34F2CB0;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_659000E14CACF1E861A854B7F7A36E6D;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_77DD1C4F4E8EA73CF879B6A524D3F757;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_CCF8ACE047CAD0002FC92DBA70564608;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_AE5B47554BB01860C4A8B186D5845A76;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_1668B3DC40D5730078AD7388B33B8637;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_EFDFC0BB4A9A90625307FEADD3EE3349;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_F3B29386466DDBF6C3898F9599BF4C8B;
+    FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive_0182064C41EE59045A7A36B5A89ECB8F;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_LandingCraft(int32 EntryPoint);
+};
+
+#endif

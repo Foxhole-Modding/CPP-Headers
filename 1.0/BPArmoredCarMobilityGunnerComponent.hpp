@@ -1,0 +1,8 @@
+#ifndef UE4SS_SDK_BPArmoredCarMobilityGunnerComponent_HPP
+#define UE4SS_SDK_BPArmoredCarMobilityGunnerComponent_HPP
+
+class UBPArmoredCarMobilityGunnerComponent_C : public UBPColVehicleMachineGunnerComponent_C
+{
+};
+
+#endif

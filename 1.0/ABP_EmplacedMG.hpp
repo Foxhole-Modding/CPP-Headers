@@ -1,0 +1,22 @@
+#ifndef UE4SS_SDK_ABP_EmplacedMG_HPP
+#define UE4SS_SDK_ABP_EmplacedMG_HPP
+
+class UABP_EmplacedMG_C : public UEmplacedWeaponAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_C142C78F4E346686701BFA98C42188BB;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2E1A77AD4BC51D84C6AFBA9727A724CC;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5834C3A1488041C7A67A7EA9C3C0FC89;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_0D46E4E14FFB787388339BB3A5E41293;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_724742C244CC427D0B6946B60F28F294;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_098803E8405E479D0D212EB18CFC2B43;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_C7F25D074D990380B9FDF88E3AF1C41B;
+    FAnimNode_StateResult AnimGraphNode_StateResult_E612B1E248DD0672FF9C59B26066C17D;
+    FAnimNode_StateResult AnimGraphNode_StateResult_86CBF7A14405F77EBC9ED4B29A36118E;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_251099DF4C75F8578F0720AB8812D36A;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_EmplacedMG(int32 EntryPoint);
+};
+
+#endif

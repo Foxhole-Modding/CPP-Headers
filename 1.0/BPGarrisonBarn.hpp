@@ -1,0 +1,98 @@
+#ifndef UE4SS_SDK_BPGarrisonBarn_HPP
+#define UE4SS_SDK_BPGarrisonBarn_HPP
+
+class ABPGarrisonBarn_C : public AGarrisonHouse
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    class UStaticMeshComponent* StaticMesh9;
+    class UStaticMeshComponent* StaticMesh20;
+    class UStaticMeshComponent* StaticMesh19;
+    class UStaticMeshComponent* StaticMesh18;
+    class UStaticMeshComponent* StaticMesh26;
+    class UStaticMeshComponent* StaticMesh25;
+    class UStaticMeshComponent* StaticMesh23;
+    class UStaticMeshComponent* StaticMesh22;
+    class UStaticMeshComponent* StaticMesh24;
+    class UStaticMeshComponent* StaticMesh21;
+    class UBoxComponent* PropsCollison07;
+    class UBoxComponent* PropsCollison06;
+    class UBoxComponent* PropsCollison05;
+    class UBoxComponent* PropsCollison04;
+    class UBoxComponent* PropsCollison03;
+    class UBoxComponent* PropsCollison02;
+    class UBoxComponent* PropsCollison01;
+    class UDecalComponent* AITurretMarker03;
+    class UDecalComponent* AITurretMarker02;
+    class UDecalComponent* AITurretMarker01;
+    class UDecalComponent* AITurretMarker00;
+    class UStaticMeshComponent* window04;
+    class UStaticMeshComponent* window03;
+    class UStaticMeshComponent* window02;
+    class UStaticMeshComponent* window01;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret3;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret2;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret1;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret;
+    class UStaticMeshComponent* StaticMesh31;
+    class UStaticMeshComponent* StaticMesh32;
+    class UStaticMeshComponent* StaticMesh29;
+    class UStaticMeshComponent* StaticMesh28;
+    class UStaticMeshComponent* StaticMesh27;
+    class UParticleSystemComponent* ParticleSystem;
+    class UDecalComponent* Decal16;
+    class UDecalComponent* Decal15;
+    class UDecalComponent* Decal14;
+    class UDecalComponent* Decal13;
+    class UDecalComponent* Decal12;
+    class UDecalComponent* Decal11;
+    class UDecalComponent* Decal10;
+    class UDecalComponent* Decal9;
+    class UDecalComponent* Decal8;
+    class UDecalComponent* Decal7;
+    class UDecalComponent* Decal6;
+    class UDecalComponent* Decal5;
+    class UDecalComponent* Decal4;
+    class UDecalComponent* Decal3;
+    class UStaticMeshComponent* StaticMesh30;
+    class UDecalComponent* Decal;
+    class UDecalComponent* Decal1;
+    class UStaticMeshComponent* StaticMesh17;
+    class UStaticMeshComponent* StaticMesh16;
+    class UStaticMeshComponent* StaticMesh15;
+    class UStaticMeshComponent* StaticMesh14;
+    class UStaticMeshComponent* StaticMesh13;
+    class UStaticMeshComponent* StaticMesh12;
+    class UStaticMeshComponent* StaticMesh11;
+    class UStaticMeshComponent* StaticMesh10;
+    class UStaticMeshComponent* StaticMesh8;
+    class UStaticMeshComponent* StaticMesh7;
+    class UStaticMeshComponent* StaticMesh6;
+    class UStaticMeshComponent* StaticMesh5;
+    class UStaticMeshComponent* StaticMesh4;
+    class UStaticMeshComponent* StaticMesh3;
+    class UStaticMeshComponent* StaticMesh2;
+    class UStaticMeshComponent* StaticMesh1;
+    class UStaticMeshComponent* StaticMesh;
+    class UDecalComponent* Decal2;
+    class UBoxComponent* StaticMeshProps;
+    class UBPStructureInteriorArea_C* BPStructureInteriorArea;
+    class UBoxComponent* NoBuildZone;
+    class USpotLightComponent* SpotLight7;
+    class USpotLightComponent* SpotLight6;
+    class USpotLightComponent* SpotLight5;
+    class USpotLightComponent* SpotLight4;
+    class USpotLightComponent* SpotLight3;
+    class USpotLightComponent* SpotLight2;
+    class USpotLightComponent* SpotLight1;
+    class USpotLightComponent* SpotLight;
+    class UMultiplexedStaticMeshComponent* MultiplexedRoof;
+    class UMultiplexedStaticMeshComponent* MultiplexedHouse;
+    class UStaticMeshComponent* Roof;
+    class UStaticMeshComponent* HouseMesh;
+
+    void ReceiveBeginPlay();
+    void UpdateLights();
+    void ExecuteUbergraph_BPGarrisonBarn(int32 EntryPoint);
+};
+
+#endif

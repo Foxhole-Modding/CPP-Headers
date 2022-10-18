@@ -1,0 +1,25 @@
+#ifndef UE4SS_SDK_ABP_RelicCar_HPP
+#define UE4SS_SDK_ABP_RelicCar_HPP
+
+class UABP_RelicCar_C : public USimVehicleAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_56D3C1FD46CC362CC80860B734AB5539;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_12B743BF4180E8351E738CB622EE658B;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4CA6DD0A4F2A25D68CEB109D1FF0C4FC;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_ED2480FE42CF0F4D21E9E9990E68697C;
+    FAnimNode_StateResult AnimGraphNode_StateResult_1BBB159A4B98756533C8EAB17E54BFA4;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_53E3D8644DE11386504759A13CB205EE;
+    FAnimNode_StateResult AnimGraphNode_StateResult_B9D6CCBC4900BAB408DF689B3A31D3E9;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_AEC23C664FE600E13CDA8AA4C286E102;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_8A3E76604F9FDFB171C28EB44E94910C;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3625F772458E4D17CADDA78E8779584B;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_10351D1B4B1F68F32EC9B7950A75C74D;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_RelicCar_AnimGraphNode_TransitionResult_12B743BF4180E8351E738CB622EE658B();
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_RelicCar_AnimGraphNode_TransitionResult_4CA6DD0A4F2A25D68CEB109D1FF0C4FC();
+    void ExecuteUbergraph_ABP_RelicCar(int32 EntryPoint);
+};
+
+#endif

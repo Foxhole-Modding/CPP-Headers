@@ -1,0 +1,23 @@
+#ifndef UE4SS_SDK_ABP_FieldMortarW_HPP
+#define UE4SS_SDK_ABP_FieldMortarW_HPP
+
+class UABP_FieldMortarW_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_80F49D714C4380B96AC0418992D6762C;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_0A91DA55492B14CAD9E7FE905133E6CC;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_E693425546B24B5B8E8EB6B5E1F980C7;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_993342604A94473BCE70F698D82C79FC;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4B7CDDEF422B8A6DF1DA14B9F0E35694;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_C794192144EA0D22E04A5487C971B211;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_FBD5AFAF4D3C59005D8A9C893755CDBB;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_98D0EFB94A3168A63B153C89AB46A98B;
+    int32 WheelRotationSpeedFactor;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldMortarW_AnimGraphNode_SequencePlayer_0A91DA55492B14CAD9E7FE905133E6CC();
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldMortarW_AnimGraphNode_SequencePlayer_C794192144EA0D22E04A5487C971B211();
+    void ExecuteUbergraph_ABP_FieldMortarW(int32 EntryPoint);
+};
+
+#endif

@@ -1,0 +1,21 @@
+#ifndef UE4SS_SDK_ABP_PrototypeTruckCol_HPP
+#define UE4SS_SDK_ABP_PrototypeTruckCol_HPP
+
+class UABP_PrototypeTruckCol_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_E42BBE0A400F12CD38451C9FBA296F52;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_0C3DDB3B46D5A49AEDD83FB04CDC44CA;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_F8617C61434ED1E5A90EC9A25BDA820B;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_73AA42B5412AB768FFCF92A07009029C;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_F3C89D5A4C88CC55FA54BC98F08C9DB7;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_401E0F2A439BA45EB481D79B50CF54C0;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_88CCCB16444B62DADD5548AE037BE469;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5A05C33F4F5CA9274DF9E896CE81DEDD;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_8C056DA344988443F05581B1B7C44806;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_PrototypeTruckCol(int32 EntryPoint);
+};
+
+#endif

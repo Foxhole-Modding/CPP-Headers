@@ -1,0 +1,33 @@
+#ifndef UE4SS_SDK_ABP_FieldArtilleryFactions_HPP
+#define UE4SS_SDK_ABP_FieldArtilleryFactions_HPP
+
+class UABP_FieldArtilleryFactions_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_6558F69F4A5085177D730495B48A92DE;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2D2F142B4B4530B0CCD21D96B9442D96;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_C697CF6C4E7AA06245FA7DA3AEA1B708;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_83C53CB24BBB7175D6A73FA8BFAE7CFF;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4CC07236408F5C3709641D8C7BB7A5BE;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_D37C8145499ED1AD7B6E088C0FD1E2F9;
+    FAnimNode_StateResult AnimGraphNode_StateResult_0119B7C040BCC80A772F6A9C0D97672F;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_FD76B3334C40DAAA2D71C3A872A05106;
+    FAnimNode_StateResult AnimGraphNode_StateResult_73CD807D4CD3571EE9EB699ED30D1350;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_239A6E744530D72EEE12048B7C4B546D;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5D1C03954A82E85CC0B244A7FB5BDDF8;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_303B3C1A40A77D51111C15B70710FEAA;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_7AAAF21E466A1D31227E848B6ABF337E;
+    FAnimNode_StateResult AnimGraphNode_StateResult_7C30929440C08FE9297DBBA8327E15BB;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_FA5FCDF5441F271B4098A7958002D2CA;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_2881E04B49C33BA60302AE9D5BA20BF3;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_EE767558436364A0EC70228BDBD42B9F;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_9A95D7BF43FD91083EF6A79502AEAC75;
+    int32 WheelRotationSpeedFactor;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldArtilleryFactions_AnimGraphNode_SequencePlayer_5D1C03954A82E85CC0B244A7FB5BDDF8();
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldArtilleryFactions_AnimGraphNode_SequencePlayer_239A6E744530D72EEE12048B7C4B546D();
+    void ExecuteUbergraph_ABP_FieldArtilleryFactions(int32 EntryPoint);
+};
+
+#endif

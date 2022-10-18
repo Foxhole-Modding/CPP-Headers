@@ -1,0 +1,32 @@
+#ifndef UE4SS_SDK_ABP_TroopShip_HPP
+#define UE4SS_SDK_ABP_TroopShip_HPP
+
+class UABP_TroopShip_C : public UTroopShipAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_380F6B9141FF3700B9F427BB6F703F75;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_118A73AB4332D27AE6857B8DA7DC2024;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_35DCC3424C527139902731B2859AF8AB;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_63FE170346EAC5CF1F992794860841FF;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_D79E2E314093F27306C9698833972B89;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3F8272304D24F712226827B8A5A60A9D;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_EBDE1D714FE8C62F42CE53AF23F18CEB;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_F6541FD64AB878374673CA8290F0CE73;
+    FAnimNode_StateResult AnimGraphNode_StateResult_1577F83E42B865D9AAB5CB8A669F4218;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_D3D9B9C9405E2B9AF9F09385AC091274;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_8EA0927F47E1FBE9FB6B59980F23AD83;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_31D4E20A47DE3AC9694F8B925BD4BBEC;
+    FAnimNode_StateResult AnimGraphNode_StateResult_F924478545DF510205E2EE96EDE0AC89;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2701CF394E988EAB406A8DB98292CC3F;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_E6142F47425658B5E56A9EB84A55A8D1;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_E389BFE1426FC0CAA206CD988EC5BD2A;
+    FAnimNode_StateResult AnimGraphNode_StateResult_A394253D425F5D0B01DCDFB2578F422D;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5897018E4A7BA602D118DF93B7EA50E7;
+    FAnimNode_StateResult AnimGraphNode_StateResult_4616024F49E289F7BCD1EEACFB590254;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_78A41B6A4BEEC90D4F3027B68944F576;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_TroopShip(int32 EntryPoint);
+};
+
+#endif

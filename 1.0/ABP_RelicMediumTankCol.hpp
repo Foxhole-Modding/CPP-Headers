@@ -1,0 +1,28 @@
+#ifndef UE4SS_SDK_ABP_RelicMediumTankCol_HPP
+#define UE4SS_SDK_ABP_RelicMediumTankCol_HPP
+
+class UABP_RelicMediumTankCol_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_23668DD640D1AF0C97221BBA0D956893;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_B1B4D81249A0F1C608C2729CBC585F36;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_AD9731394EE532ED0BBA41AE00DF6224;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_60E6E0BB4368C0DBD69869B29457C0DB;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4AC3D8AD4DF373F345AD0AAFA5A8C0D2;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9237A44D42417589CF49E8B658F672E5;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_158D15A34386348FEF2D1EB6FD5EF293;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_EDEE434C42B4CA6E49754587CD7504BB;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_BD94CC6B4B571FCD76990286CECD9545;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_6F99EFB34B1B13B953BA4984639231B9;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_CB11D28143446B51910D03B2F0EF57B2;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_D35148F54F2FA6FA850EC8973B84CC94;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_13E8E03B4C080E54BE2F3E8F05A9B223;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_AEB094064B5C06FF29543A9C97A5480D;
+    FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive_343AF1D8496B63C97CB298B9294EA223;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_43E06C6D4D00C506DD2DE5A33A1B6C76;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_RelicMediumTankCol(int32 EntryPoint);
+};
+
+#endif

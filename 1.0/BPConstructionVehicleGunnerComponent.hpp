@@ -1,0 +1,8 @@
+#ifndef UE4SS_SDK_BPConstructionVehicleGunnerComponent_HPP
+#define UE4SS_SDK_BPConstructionVehicleGunnerComponent_HPP
+
+class UBPConstructionVehicleGunnerComponent_C : public UConstructionGunnerComponent
+{
+};
+
+#endif

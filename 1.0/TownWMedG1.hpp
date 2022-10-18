@@ -1,0 +1,96 @@
+#ifndef UE4SS_SDK_TownWMedG1_HPP
+#define UE4SS_SDK_TownWMedG1_HPP
+
+class ATownWMedG1_C : public AGarrisonHouse
+{
+    class UStaticMeshComponent* StaticMesh2;
+    class UStaticMeshComponent* ShopSign8;
+    class UStaticMeshComponent* CoverHalfBath1d;
+    class UDecalComponent* AITurretMarker02;
+    class UDecalComponent* AITurretMarker01;
+    class UStaticMeshComponent* StaticMesh1;
+    class UDecalComponent* AITurretMarker00;
+    class UStaticMeshComponent* StaticMesh;
+    class UBoxComponent* PropsCollison04;
+    class UBoxComponent* PropsCollison03;
+    class UBoxComponent* PropsCollison02;
+    class UBoxComponent* PropsCollison01;
+    class UStaticMeshComponent* StaticMesh63;
+    class UDecalComponent* Decal7;
+    class UDecalComponent* Decal6;
+    class UStaticMeshComponent* StaticMesh62;
+    class UStaticMeshComponent* StaticMesh61;
+    class UStaticMeshComponent* StaticMesh60;
+    class UStaticMeshComponent* StaticMesh59;
+    class UStaticMeshComponent* StaticMesh58;
+    class UStaticMeshComponent* StaticMesh57;
+    class UStaticMeshComponent* StaticMesh56;
+    class UStaticMeshComponent* StaticMesh55;
+    class UStaticMeshComponent* StaticMesh54;
+    class UStaticMeshComponent* StaticMesh53;
+    class UStaticMeshComponent* StaticMesh52;
+    class UStaticMeshComponent* StaticMesh51;
+    class UStaticMeshComponent* StaticMesh50;
+    class UDecalComponent* Decal5;
+    class UDecalComponent* Decal4;
+    class UDecalComponent* Decal3;
+    class UDecalComponent* Decal2;
+    class UStaticMeshComponent* StaticMesh49;
+    class UStaticMeshComponent* StaticMesh48;
+    class UStaticMeshComponent* StaticMesh47;
+    class UStaticMeshComponent* StaticMesh46;
+    class UStaticMeshComponent* StaticMesh45;
+    class UStaticMeshComponent* StaticMesh44;
+    class UStaticMeshComponent* StaticMesh11;
+    class UStaticMeshComponent* StaticMesh42;
+    class UStaticMeshComponent* StaticMesh41;
+    class UStaticMeshComponent* StaticMesh40;
+    class UStaticMeshComponent* StaticMesh39;
+    class UStaticMeshComponent* StaticMesh38;
+    class UStaticMeshComponent* StaticMesh37;
+    class UStaticMeshComponent* StaticMesh36;
+    class UStaticMeshComponent* StaticMesh35;
+    class UStaticMeshComponent* StaticMesh34;
+    class UStaticMeshComponent* StaticMesh33;
+    class UStaticMeshComponent* StaticMesh32;
+    class UDecalComponent* Decal1;
+    class UStaticMeshComponent* StaticMesh31;
+    class UStaticMeshComponent* StaticMesh30;
+    class UStaticMeshComponent* StaticMesh29;
+    class UStaticMeshComponent* StaticMesh28;
+    class UStaticMeshComponent* StaticMesh27;
+    class UStaticMeshComponent* StaticMesh26;
+    class UStaticMeshComponent* StaticMesh25;
+    class UStaticMeshComponent* StaticMesh24;
+    class UStaticMeshComponent* StaticMesh23;
+    class UStaticMeshComponent* StaticMesh22;
+    class UStaticMeshComponent* StaticMesh21;
+    class UStaticMeshComponent* StaticMesh19;
+    class UStaticMeshComponent* StaticMesh18;
+    class UStaticMeshComponent* StaticMesh17;
+    class UStaticMeshComponent* StaticMesh16;
+    class UStaticMeshComponent* StaticMesh15;
+    class UStaticMeshComponent* StaticMesh14;
+    class UStaticMeshComponent* StaticMesh43;
+    class UStaticMeshComponent* window03;
+    class UStaticMeshComponent* window02;
+    class UStaticMeshComponent* window01;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret2;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret1;
+    class UBPAIGarrisonTurret_C* BPAIGarrisonTurret;
+    class UStaticMeshComponent* Lamp03;
+    class UStaticMeshComponent* Lamp02;
+    class UStaticMeshComponent* Lamp01;
+    class UBoxComponent* StaticMeshProps;
+    class UBPStructureInteriorArea_C* BPStructureInteriorArea;
+    class UParticleSystemComponent* ParticleSystem5;
+    class UParticleSystemComponent* ParticleSystem4;
+    class UParticleSystemComponent* ParticleSystem1;
+    class UMultiplexedStaticMeshComponent* MultiplexedRoof;
+    class UMultiplexedStaticMeshComponent* MultiplexedHouse;
+    class UStaticMeshComponent* Roof;
+    class UStaticMeshComponent* HouseMesh;
+
+};
+
+#endif

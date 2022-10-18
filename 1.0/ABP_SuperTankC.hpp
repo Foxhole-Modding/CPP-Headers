@@ -1,0 +1,38 @@
+#ifndef UE4SS_SDK_ABP_SuperTankC_HPP
+#define UE4SS_SDK_ABP_SuperTankC_HPP
+
+class UABP_SuperTankC_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_FFCECAFA4B668A204601D6AD92818BD1;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_2CF6B27A40E4BC34DFE0FB84B551DB1E;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_F87E2CB04C091800A0112EB9A56B9D70;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_553E40E54D31FDB48FA63D90BD5E1832;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_642B7B5848CEA40AD32417A35D92E59B;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_CF5E3FE44017FB4938305AA725C19ADD;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_8742BC95455A322640254784FC13D874;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_F2CDB8F342BDA8974F314FAB944C6814;
+    FAnimNode_StateResult AnimGraphNode_StateResult_F12193414D44DAD8F50CEBB60CF698D2;
+    FAnimNode_StateResult AnimGraphNode_StateResult_3BAA680B4E3A0B8B04CB518457D6FADD;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_85D117E54527551A81D74C95505689C4;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_B6DD602948629AC1E43F2B83B21CAD45;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_DD1A20FD443EFCB2E0CE978B37123627;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_9B3C830342AAA6A87ECA5C9FFB6BEEE3;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_683953E94607F7C8CD62D094D4820DCB;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9FA325254B72FC85F5645986DDF8C353;
+    FAnimNode_StateResult AnimGraphNode_StateResult_FADAC10049E5FAA4037FA9AC74D55F91;
+    FAnimNode_StateResult AnimGraphNode_StateResult_05EA46F14C2E522DECC9C29AAC96335F;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_39536F0C4382CED48B189088429ED0E6;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_A7C11A494593A5081838769C55C61815;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_6097271C470A71499BFA9D9FE8D256BD;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_3C432C074E7AA1BEB405ECBB18EBFEAF;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_CE1B34894FAADC8E61835F8F6A39D51D;
+    FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive_221B3B0149149F9A8116AEA018162D79;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3F75553845FED345E34082964BE5C6A0;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3925B2AD477DFDFCC7EDA9B71DFAE52F;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_SuperTankC(int32 EntryPoint);
+};
+
+#endif

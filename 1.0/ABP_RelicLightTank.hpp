@@ -1,0 +1,30 @@
+#ifndef UE4SS_SDK_ABP_RelicLightTank_HPP
+#define UE4SS_SDK_ABP_RelicLightTank_HPP
+
+class UABP_RelicLightTank_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_D80FB5E74B782494957A969EE45AE817;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_45CF418A4F34A6F5B4795F9F6B7E299F;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_474FE2594507C70B53286E8D5E7AEC84;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_1DFC148349A8BAB93BB1DD8324E5437D;
+    FAnimNode_StateResult AnimGraphNode_StateResult_37EE42BB40B4F59EDBA38F821364CA03;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4C1CCCA346440F40ECBCC09F3C7A9C64;
+    FAnimNode_StateResult AnimGraphNode_StateResult_2C1F820A4E3610C19EC0E9996B9D1C5C;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_53ADDE3147CC91BBB07CF4980063DB21;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_6566FAB04B4200EE67ECF0B68F514B7A;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_B0553ED54D8DB19E19DD47B5C2B237CD;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_43AE278C41F4A3DE9BC333B6D3E6A2A9;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_683942A841F77B7EB88A849522637E06;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_E4543AEA4170B4C2DFE45FBA95FB6618;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_76E313524BB471B95A76D180A055F204;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_655E4BD6427B8227B2BFE5BA3A1ACEF8;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_B47D619B46869CEDCC06858953D0B274;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_RelicLightTank_AnimGraphNode_TransitionResult_474FE2594507C70B53286E8D5E7AEC84();
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_RelicLightTank_AnimGraphNode_TransitionResult_45CF418A4F34A6F5B4795F9F6B7E299F();
+    void ExecuteUbergraph_ABP_RelicLightTank(int32 EntryPoint);
+};
+
+#endif

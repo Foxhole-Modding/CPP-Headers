@@ -1,0 +1,33 @@
+#ifndef UE4SS_SDK_ABP_FieldATGun_HPP
+#define UE4SS_SDK_ABP_FieldATGun_HPP
+
+class UABP_FieldATGun_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_7E8509FD453E1A9A87B5919531B8E9D6;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_0E4F05A14F58BF7ECF2E3C838D958103;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_17F5F5F44A0FF4A9FA39A3AAC1597FCF;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_83B4E3F249D76F87E0D654B6EDE208B3;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_66EE290A466D253C5C5F8B938AAE56D7;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_DADB913D448BF4E84F6858AD152F94A1;
+    FAnimNode_StateResult AnimGraphNode_StateResult_8EB6DBBB42376D6A0681AABA9DEB8F27;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_BA06C9624E5729D536BE7D847E33DD99;
+    FAnimNode_StateResult AnimGraphNode_StateResult_91628FFD41B4CA34245D3A944C51060D;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_69315BD2454E6BFDD7835782AC624116;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_7D29805444131161AA036CB7F6EF4AFB;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5C454A2B4F8E7B9F9853ACAA23702425;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_BD33A46F4C75EEEA2B036EBAF3C62B8F;
+    FAnimNode_StateResult AnimGraphNode_StateResult_71A379144A782B0C5D5A7F8FBE5CE8B7;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_29AA58134C165944AE3A099D627376FE;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_525E75E14E94C66ECC81A0ADC94027DC;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_DF3493484491762FCBE7219874728B90;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_165620824E08B7B7728BFF9E0087F21F;
+    int32 WheelRotationSpeedFactor;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldATGun_AnimGraphNode_SequencePlayer_5C454A2B4F8E7B9F9853ACAA23702425();
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FieldATGun_AnimGraphNode_SequencePlayer_7D29805444131161AA036CB7F6EF4AFB();
+    void ExecuteUbergraph_ABP_FieldATGun(int32 EntryPoint);
+};
+
+#endif

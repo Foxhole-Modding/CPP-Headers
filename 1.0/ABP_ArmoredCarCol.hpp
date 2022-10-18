@@ -1,0 +1,20 @@
+#ifndef UE4SS_SDK_ABP_ArmoredCarCol_HPP
+#define UE4SS_SDK_ABP_ArmoredCarCol_HPP
+
+class UABP_ArmoredCarCol_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_052B06694FBEC4F39867098113480EF5;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_26EF0A4E44075407B350659388BF52A8;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_DC1CADAF43A38E03D118B7B59DB56B8F;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_B58A027141DBAD243B38B9A7E35E07B0;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_EE4573B8435D6113DC2D72943BE0A428;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_EC424FE24C1E40641E2D888462928E9A;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_1E2135D1491A63257958EF98297A30BA;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_D80A553E4F130175B864138D2DAAB514;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_ArmoredCarCol(int32 EntryPoint);
+};
+
+#endif

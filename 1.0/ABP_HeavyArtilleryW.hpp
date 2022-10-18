@@ -1,0 +1,29 @@
+#ifndef UE4SS_SDK_ABP_HeavyArtilleryW_HPP
+#define UE4SS_SDK_ABP_HeavyArtilleryW_HPP
+
+class UABP_HeavyArtilleryW_C : public UEmplacedWeaponAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_FF909B0C412B2B8F94881EA0F0037033;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_F9706FF84C3534A9FB427185ABC13891;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_FCF9681A4884C39F9232ABBEEB0FDAB6;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_D26B17774E17DF1A8094D7A0E1E74E65;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_8F85AC3B4B9D0B97043C609BA52E4514;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3934F8934F87CBD5FA368A8E3815CB9A;
+    FAnimNode_StateResult AnimGraphNode_StateResult_14A0F0C64DFD1EB7E9B372824B77136B;
+    FAnimNode_StateResult AnimGraphNode_StateResult_32FC17F04B9580346DCDA5B74FCDA201;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_A26370804999E1796B3C8184D7BDABE2;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_099C08B84C582BB030615A8CA2DBE203;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_80AED9664558FECB70A201931035EA77;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_73A67DF2446DCC19140238A1B070F304;
+    FAnimNode_StateResult AnimGraphNode_StateResult_B8BD7CCF432767E94A787DAEA826E4EF;
+    FAnimNode_StateResult AnimGraphNode_StateResult_A310079B4C91EF089AABEFA61DED691A;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_612C8B434EB895088A43379CCE18BFCF;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_4DFFFCFD434323989009E79A81A48872;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HeavyArtilleryW_AnimGraphNode_TransitionResult_D26B17774E17DF1A8094D7A0E1E74E65();
+    void ExecuteUbergraph_ABP_HeavyArtilleryW(int32 EntryPoint);
+};
+
+#endif

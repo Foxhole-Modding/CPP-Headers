@@ -1,0 +1,32 @@
+#ifndef UE4SS_SDK_ABP_PrototypeHalftrackW_HPP
+#define UE4SS_SDK_ABP_PrototypeHalftrackW_HPP
+
+class UABP_PrototypeHalftrackW_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_272D3BBF43BA8785D366EBAC5632CD50;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4C6B294447E97CB40E1F58AE3B8610D6;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9297932644DE1AAF0BFE11B3E7E3FBA6;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_06398BC44BBF3DEC5408BC97AD987316;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_FEC492AD43C7293C50AB87BE2BB95762;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_E3B6877244184D1C89362B9BD6A38999;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_79E331BC41DAD7751E9719B71168173F;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4C3C35CC403DB257D0289FB3EB9855F2;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_FAB934954E34812A1F49E7A6FE93ACD4;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_14DB1D2C4ABA59C71DAB498C89F79A67;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_2A49B3F84D396B83AEF7FDAC2E43B0C6;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_A4398899451B8AB08429E4AD25683D1C;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_7F35B5914CAE216117D8DDA9362E45CA;
+    FAnimNode_TransitionResult AnimGraphNode_TransitionResult_661B8658438D9D492FC5B4896F239D8C;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_46026DEA48DF5E4239D16093F11AE4F8;
+    FAnimNode_StateResult AnimGraphNode_StateResult_B394FCE747757F9582D1EEB6EEEA3498;
+    FAnimNode_StateResult AnimGraphNode_StateResult_5547719A44C398BB146F938040E6285D;
+    FAnimNode_StateMachine AnimGraphNode_StateMachine_C19471BC4BB4A3B6C6451CA7F298E632;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_628F515D454ADF5561E29ABE753163C7;
+    FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive_3F09F82B42D3CE82B4D86DB681D533B8;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_PrototypeHalftrackW(int32 EntryPoint);
+};
+
+#endif

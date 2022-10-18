@@ -1,0 +1,23 @@
+#ifndef UE4SS_SDK_ABP_GunBoatCol_HPP
+#define UE4SS_SDK_ABP_GunBoatCol_HPP
+
+class UABP_GunBoatCol_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_D33790B94C95B22A837DEB9A94B6D434;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_9769C4FA4CB1D5DFD983ED9899856432;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_0983B19F4DDFE8E7FBBEF099CFCF20C0;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_8AC98DC44BE90E2638BD7D8A4008BC01;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_A62CB9BC4E086D6964EA829DF4F3E2BD;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_8CCF48644C21E56F2C807F96F5D7E6B4;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_E11C79874992BCE6059953A087838C52;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_023CD2B24ECB7812E4B54DB0BA9E26A2;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_4F675E2D4D9A23563FBA25A76F8608DE;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_03BB946F4A7AE78E576AFBB057DCC9AE;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_GunBoatCol_AnimGraphNode_BlendSpacePlayer_0983B19F4DDFE8E7FBBEF099CFCF20C0();
+    void ExecuteUbergraph_ABP_GunBoatCol(int32 EntryPoint);
+};
+
+#endif

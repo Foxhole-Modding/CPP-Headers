@@ -1,0 +1,8 @@
+#ifndef UE4SS_SDK_BPGunboatOffensiveWArtilleryGunner_HPP
+#define UE4SS_SDK_BPGunboatOffensiveWArtilleryGunner_HPP
+
+class UBPGunboatOffensiveWArtilleryGunner_C : public UGunboatArtilleryGunnerMountComponent
+{
+};
+
+#endif

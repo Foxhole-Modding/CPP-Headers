@@ -1,0 +1,28 @@
+#ifndef UE4SS_SDK_ABP_ArmoredCarDefensive_tankette_HPP
+#define UE4SS_SDK_ABP_ArmoredCarDefensive_tankette_HPP
+
+class UABP_ArmoredCarDefensive_tankette_C : public USimVehicleGunnerSupportAnimInstance
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    FAnimNode_Root AnimGraphNode_Root_82047ACB41C738CD34E78F8279D6967E;
+    FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_0448AE98482A5858B2996ABDE4B02160;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_A87A95314833727D907FEB89CC3970DF;
+    FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_A2B70DB641EC45011C70469778650349;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_EDAC411F4E9B185C5D9DC0BC33131E05;
+    FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_59DB987D44037015B6568B86EBCC84D2;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_6198400846455148BE430E9EBF96DEB7;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_F35DA447430CC17737DBB3BEB4DE1C62;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_18726BCE45FA79A322E04AA5F36A9EA0;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_821217864522D313AFFFE9B5A2E6DB65;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_DEA628FF42426460F407B78470B3D247;
+    FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive_D60A232342ABEEA54B12339894F42700;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_225C356D45E5A21B426921BC82B66D30;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_CA66859145589A1A7696DDB0F498643A;
+    FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_D77FB98C4C64912EBE915B8B73853E4D;
+    FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_FBEB48BD4ACF04C6F66991A24AE1753C;
+
+    void AnimGraph(FPoseLink& AnimGraph);
+    void ExecuteUbergraph_ABP_ArmoredCarDefensive_tankette(int32 EntryPoint);
+};
+
+#endif
